@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #202124; 
+    color: white;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+    justify-content:flex-end;
+}
+
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a {
+    margin-right: 10px;
+    color:white;
+}
+
+nav .nav-right-section .items-menu-icon {
+    background-image: url('./Imagenes/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+nav .nav-right-section img {
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img {
+    width: 300px;
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container {
+    width: 530px;
+    border-radius: 100px;
+    border: 1px solid #dadce0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #202124;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #dadce0;
+    border-color: #dadce0;
+}
+
+main .main-input .search-icon {
+    background: url('https://cdn-icons-png.flaticon.com/512/3128/3128290.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 20px;
+}
+
+main .main-input .micro-icon {
+    background: url('https://cdn.icon-icons.com/icons2/1105/PNG/512/loupe_78956.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 20px;
+}
+
+main .main-buttons {
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-buttons div {
+    display: inline-block;
+}
+
+main .main-buttons button {
+    height: 36px;
+    background-color: #303134 ;
+    border: 0;
+    font-size: 14px;
+    color: white;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+main .main-buttons button:hover {
+    border: 1px solid #eee;
+    box-shadow: 0 1px 6px #dadce0;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #171717;
+    border-top: 1px solid #171717;
+}
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+footer .footer-left {
+    justify-self: left;
+}
+footer .footer-right {
+    justify-self: right;
+}
+footer ul li a {
+    margin: 10px;
+    color: #9aa0a6;
+}
